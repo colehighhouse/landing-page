@@ -1,0 +1,123 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: roboto, sans-serif;
+}
+
+.topcontainer {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 18px;
+}
+
+.headerlinks {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 18px;
+}
+
+.toplinks {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.topcontainer .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+
+}
+
+.heromain {
+    display:flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 100px;
+}
+
+.button {
+    background-color: #3882f6;
+}
+
+.pictures {
+    display:flex;
+    justify-content: center;
+}
+
+.info .text {
+    max-width: 150px;
+}
+
+.pictures .info {
+    padding: 25px;
+}
+
+.picturecontainer .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.picturecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+}
+
+.hero .info {
+    color:#F9FAF8
+}
+
+.quotecontainer {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+}
+
+.quotecredit {
+    align-self: flex-end;
+    font-style: italic;
+}
+
+.ctabox {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 70px 300px;
+    min-width: 400px;
+    border-radius: 25px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.footernote {
+    color: #F9FAF8;
+}
